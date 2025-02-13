@@ -1,27 +1,56 @@
 Workout Buddy
+
 Manage workouts using this app!
 
-This is an app built using the MERN stack, which uses a Nodejs backend and React frontend. You can add new workouts, delete workouts, etc.
-I built this following this video tuturorial by Net Ninja
+This is a MERN stack application that includes a Node.js backend and a React frontend. Users can add, delete, and manage workouts efficiently.
 
-To run
-Firstly you want to make sure that all the node modules are installed.
-Simply go to each folder and run npm install and it will install the right packages using package.json
+This project was built following a tutorial by Net Ninja.
 
-In backend make a .env file with the following format:
+🚀 Setup Instructions
+
+1️⃣ Install Dependencies
+
+Before running the project, ensure that all necessary Node modules are installed.
+
+Run the following command in both the frontend and backend directories:
+
+npm install
+
+2️⃣ Backend Configuration
+
+Create a .env file inside the backend folder with the following format:
 
 PORT=4000
-MONGOURI={your mongo URI goes here}
-The MONGOURI should be of the form mongodb+srv://{user-id}:{pwd}@{domain}
+MONGOURI=mongodb+srv://{user-id}:{password}@{domain}
 
-To run this, open two separate terminals with this repository
+Replace {user-id}, {password}, and {domain} with your actual MongoDB Atlas connection details.
 
-On one of them run the following:
+🎯 Running the Application
+
+Open two separate terminals and run the following commands:
+
+Start the Backend
 
 cd backend
 npm run dev
 
-On the other run the following:
+Start the Frontend
 
 cd frontend
 npm start
+
+🛠 Technologies Used
+
+MongoDB - NoSQL Database
+Express.js - Backend Framework
+React.js - Frontend Framework
+Node.js - Server-side Runtime
+
+📌 Features
+
+✅ Add new workouts
+✅ Delete workouts
+✅ Track workout progress
+
+
+
