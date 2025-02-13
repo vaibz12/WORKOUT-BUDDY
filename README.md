@@ -20,8 +20,8 @@ npm install
 
 Create a .env file inside the backend folder with the following format:
 
-PORT=4000
-MONGOURI=mongodb+srv://{user-id}:{password}@{domain}
+'''PORT=4000
+'''MONGOURI=mongodb+srv://{user-id}:{password}@{domain}
 
 Replace {user-id}, {password}, and {domain} with your actual MongoDB Atlas connection details.
 
@@ -31,13 +31,13 @@ Open two separate terminals and run the following commands:
 
 Start the Backend
 
-cd backend
-npm run dev
+'''cd backend
+'''npm run dev
 
 Start the Frontend
 
-cd frontend
-npm start
+'''cd frontend
+...npm start
 
 🛠 Technologies Used
 
