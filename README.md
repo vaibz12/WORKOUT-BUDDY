@@ -49,7 +49,5 @@ React.js - Frontend Framework
 
 Node.js - Server-side Runtime
 
-📌 Features
 
-✅ Add new workouts✅ Delete workouts✅ Track workout progress
 
